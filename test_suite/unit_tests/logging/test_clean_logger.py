@@ -1,8 +1,11 @@
 """Test the clean_logger.py"""
 import os
+import sys
 import tempfile
 
-from src.logging.clean_logger import get_clean_logger
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../../../')))
+
+from Moby_Land.custom_logging.clean_logger import get_clean_logger
 
 class Test_Logger:
     def test_get_clean_logger(self):
