@@ -8,7 +8,8 @@ setup(
     version='0.0.1',
     author='Adam Boesky',
     author_email='apboesky@gmail.com',
-    description='A place for all of Adam\' gadgets.',
+    long_description=open('README.md').read(),
+    long_description_content_type='text/markdown',
     packages=find_packages(),
     classifiers=[
         'Programming Language :: Python :: 3',
