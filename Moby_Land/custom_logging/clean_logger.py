@@ -1,8 +1,6 @@
 """All the loggers that I typically use."""
 import logging
-
 from typing import Optional
-
 
 # Strings for formatting with colors
 FORMAT_STR = '%(asctime)s - %(name)s - #color%(levelname)s\u001b[0m - %(message)s'
