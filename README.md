@@ -7,6 +7,10 @@ The package is publically available through The Python Package Index (PyPI). To 
 
 ```pip install Moby-Land```
 
+If that gives you issues, try:
+
+```python3.12 -m pip install Moby-Land```
+
 Make sure your package is up to date—because I will be using this for primarily my own work, I may not do the best job of maintaining old versions.
 
 ## What does Moby_Land have to offer?
