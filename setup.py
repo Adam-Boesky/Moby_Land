@@ -1,10 +1,11 @@
 import os
+
 import pip
-from setuptools import setup, find_packages
+from setuptools import find_packages, setup
 
 setup(
     name='Moby_Land',
-    version='0.1.8',
+    version='0.2.0',
     author='Adam Boesky',
     author_email='apboesky@gmail.com',
     description='A place for all of Adam\' gadgets.',
