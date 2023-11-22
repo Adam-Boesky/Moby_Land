@@ -5,7 +5,7 @@ from setuptools import find_packages, setup
 
 setup(
     name='Moby_Land',
-    version='0.0.1',
+    version='0.3.0',
     author='Adam Boesky',
     author_email='apboesky@gmail.com',
     description='A place for all of my gadgets.',
