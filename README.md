@@ -1,4 +1,7 @@
 [![unit tests](https://github.com/Adam-Boesky/Moby_Land/actions/workflows/test.yml/badge.svg)](https://github.com/Adam-Boesky/Moby_Land/actions/workflows/test.yml) [![coverage](https://github.com/Adam-Boesky/Moby_Land/actions/workflows/coverage.yml/badge.svg)](https://github.com/Adam-Boesky/Moby_Land/actions/workflows/coverage.yml)
+
+<img src="extra/moby.png" alt="Moby" width="200"/>
+
 # Moby_Land
 
 This publically available package contains all of the custom tools that Adam uses over and over again (in other words, all my boilerplate code). While it is really just a way for me to access my own python concoctions, I welcome anyone to contribute things that they themselves use! Also, please feel free to use any of my gadgets—some of them are rather nifty.
