@@ -21,10 +21,9 @@ Make sure your package is up to date—because I will be using this for primaril
 This package currently doesn't have a ton of functionality, but as I go through my career I plan on adding every step of the way. Right now the breakdown is as follows
 - `custom_logging/`: Some cool loggers that I like to use.
 - `plotting/`: Plot formatting and helper function that help make plots pretty.
+- `astro/`: Useful astrophysics functions.
 
 Some things to add in the futureL
-- `astro`/`kepler`: Some code that I use often in my astrophysics work and research.
-  - Converting between mags and fluxes.
 - `data_science`: Boiler plate code that I use when doing datascience.
   - Propagating types of error
   - Easy-to-use grid search functionality
