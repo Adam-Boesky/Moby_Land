@@ -16,7 +16,7 @@ setup(
         'Operating System :: OS Independent',
     ],
     python_requires='>=3.11',
-    install_requires=[],
+    install_requires=['matplotlib'],
 )
 
 # To republish:
