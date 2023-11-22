@@ -15,5 +15,6 @@ jobs:
         run: pip3 install pytest
       - name: "Run test script"
         run: |
-          chmod +x test_suite/run_tests.sh
-          ./test_suite/run_tests.sh
+          cd test_suite
+          chmod +x run_tests.sh
+          ./run_tests.sh
