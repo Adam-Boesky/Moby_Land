@@ -16,4 +16,5 @@ jobs:
       - name: "Run test script"
         run: |
           cd test_suite
+          chmod +x run_tests.sh
           ./run_tests.sh
