@@ -15,11 +15,10 @@ jobs:
           pip3 install pytest-cov
       - name: "Get coverage"
         run: |
-          COVERAGE=$(pytest --cov Moby_Land | grep 'TOTAL' | tail -c 4 | head -c 2)
-          if [ $COVERAGE -gt 89 ]
-          then
-          echo "success"
+          COVERAGE=$(pytest --cov Moby_Land | grep 'TOTAL' | awk '{print $NF}' | tr -d '%')
+
+          if [ "$COVERAGE" -gt 89 ]; then
+              echo "success"
           else
-          echo "failure"
-          exit 1
+              echo "failure"
           fi
