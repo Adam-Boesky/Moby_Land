@@ -5,7 +5,7 @@ from setuptools import find_packages, setup
 
 setup(
     name='Moby_Land',
-    version='0.3.0',
+    version='0.3.1',
     author='Adam Boesky',
     author_email='apboesky@gmail.com',
     description='A place for all of my gadgets.',
@@ -16,7 +16,7 @@ setup(
         'Operating System :: OS Independent',
     ],
     python_requires='>=3.11',
-    install_requires=['matplotlib'],
+    install_requires=['matplotlib', 'numpy'],
 )
 
 # To republish:
