@@ -12,17 +12,17 @@ def ab_mag_to_flux(AB_mag: Union[np.ndarray, float, int]) -> Union[np.ndarray, f
     Returns:
         The fluxes values (Janskys).
     """
-    return np.exp((AB_mag - 8.9) / -2.5)
+    return 10**((AB_mag - 8.9) / -2.5)
 
 
-def flux_to_ab_mag(AB_mag: Union[np.ndarray, float, int]) -> Union[np.ndarray, float, int]:
+def flux_to_ab_mag(flux: Union[np.ndarray, float, int]) -> Union[np.ndarray, float, int]:
     """Convert flux to AB magnitude.
     Params:
         flux: Flux values (Janskys).
     Returns:
         AB mag values.
     """
-    return np.exp((AB_mag - 8.9) / -2.5)
+    return -2.5 * np.log10(flux) + 8.9
 
 
 ########################## Error Propagation ########################## (source: https://en.wikipedia.org/wiki/Propagation_of_uncertainty)
